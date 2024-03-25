@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto ", sans-serif  ;
+}
+.navbar-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vmax;
+    background: rgb(3, 137, 247);
+    
+}
+.navbar-section navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-section ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+   margin: .5rem;
+}
+.navbar-section ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     padding: 1vmax;
+     padding-left: 2vmax;
+     padding-right: 2vmax;
+     font-size: 1.5vmax;
+     font-weight:  bold;
+     letter-spacing: 1px;
+
+}
+.navbar-section ul li:hover{
+    text-decoration: underline;
+    }
+
+.navbar-section button{
+    margin-right: 5vmax;
+width: 10vmax;
+padding: 0.8vmax;
+font-size: 1.5vmax;
+background: white;
+border: none;
+border-radius: 4px;
+letter-spacing: 1px;
+
+}
+
+.navbar-section button:hover{
+    font-weight: bold;
+    font-size: 1.6vmax;
+}
+.navbar-section h1{
+    font-size: 2.5vmax;
+    font-weight: bold;
+  padding: 2vmax;
+}
+
+.navbar-section input{
+    padding: 0.7vmax;
+    font-size: 1.2vmax;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.main-page{
+    margin: 4vmax;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.maindiv{
+    width: 34vmax;
+}
+.maindiv h3{
+    padding: 1vmax;
+    font-size: 2rem;
+
+}
+.maindiv p{
+    font-size: 1rem;
+    padding: 1vmax;
+    font-family: "ubuntu",sans-serif;
+    color: rgb(179, 179, 179);
+
+}
+
+
+.selectbook{
+    font-family: "ubuntu", sans-serif;
+    margin: 1vb;
+    margin-left:2vmax;
+
+}
+.seemorebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2vmax;}
+
+.seemorebtn button{
+    font-size: 1.2vmax;
+    padding: .8vmax;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.doctorprofile{
+    width: 38vmax;
+    height:23vmax;
+    border: 2px solid gray;
+    border-style:dashed;
+    padding: 2vmax;
+}
+
+
+.docinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.docinfo{
+    display: flex;
+    
+}
+.docinfo img{
+    width: 13vmax;
+    height: 11vmax;
+    border-radius: 5px;
+    box-shadow: 3px 2px 5px rgb(184, 184, 184);
+}
